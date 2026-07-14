@@ -58,13 +58,9 @@ git --version
 ## 2. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/hexapod-simulation.git
-cd hexapod-simulation
+git clone https://git clone https://github.com/serdarselimys/HexaDogZBD-PybulletDemo.git
+cd HexaDogZBD-PybulletDemo
 ```
-
-Replace `<your-username>` with the actual GitHub account/organization hosting the repo.
-
----
 
 ## 3. Create a Virtual Environment
 
@@ -104,15 +100,10 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-If you don't yet have a `requirements.txt`, use:
+or
 
 ```bash
 pip install pybullet pandas numpy pygame
-```
-
-Then generate the file:
-```bash
-pip freeze > requirements.txt
 ```
 
 ---
@@ -131,7 +122,7 @@ A PyBullet GUI window will open with the robot standing on a plane.
 
 ## 6. Controls
 
-### Logitech F710 (X-mode) — Tested.
+### Logitech F710 (X-mode) — Tested. Should Work for XBox controllers and alike.
 
 | Input | Action |
 |---|---|
@@ -165,7 +156,6 @@ Each completed gait cycle prints a line like:
 [Cycle 012] Speed:  14.32 cm/s | Freq: 1.85Hz | Target Body H: 0.200m
 ```
 
-Use these to sanity-check that the gait parameters in `gait_params.csv` produce the speeds you expect.
 
 ---
 
@@ -189,5 +179,12 @@ deactivate
 ---
 
 ## License
+These files are licensed under the Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0) license.
 
-Add your preferred license here (e.g., MIT).
+You are free to remix, adapt, and build upon this design for non-commercial purposes, as long as you give appropriate credit.
+
+You may not use the material for commercial purposes of any kind.
+
+Link:
+https://creativecommons.org/licenses/by-nc/4.0/
+
