@@ -1,3 +1,5 @@
+![Screenshot](Pybullet_Control.jpg)
+
 # HexaDog ZBD — Hexapod Robot Simulation
 
 A PyBullet-based simulation of the **HexaDog ZBD** hexapod robot, driven by a tripod gait with real-time joystick or keyboard control. Gait parameters (frequency, step amplitude) are loaded from a CSV lookup table and smoothly blended across direction axes (forward, sideways, diagonal, spin).
